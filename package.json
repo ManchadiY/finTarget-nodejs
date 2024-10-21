@@ -1,0 +1,23 @@
+{
+  "name": "fintarget-nodejsassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.3",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.7",
+    "pm2": "^5.4.2",
+    "redis": "^4.7.0",
+    "util": "^0.12.5"
+  }
+}
